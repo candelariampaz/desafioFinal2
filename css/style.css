@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat&display=swap');
+
+
+*{
+	font-family: 'Inter', sans-serif;;
+	margin: 0;
+	padding: 0;
+	color: #282728
+}
+html{
+	font-size: 62.5%;
+}
+
+body{
+	background-image: url(../img/fondo1.png);
+	background-attachment: repeat ;
+}
+h1,h2,h3{font-size: 2.5rem;
+	margin: 30px;
+	font-style: bold;
+	padding-bottom: 10px
+}
+h4{font-family: 'Montserrat', sans-serif;
+	font-size: 5rem;
+	padding-bottom: 5px}
+
+h5{font-size: 2rem
+	margin: 30px}
+
+
+p{
+	line-height: 2rem;
+	font-size: 1.6rem;
+	text-align: left;
+
+}
+main ol{font-size: 4rem;
+		font-style: bold}
+main ul{ font-size: 1.6rem }
+main ul li{ line-height: 1.6rem 
+			font-size: 4rem;}
+
+header{ position: sticky;
+top: 0px;
+z-index: 1 }
+	.encabezado nav{
+		background-color: rgba(170, 173, 177, .65);
+		padding: 2px ;
+		font-size: 1.75rem;
+		top:0;
+		width: 100%;
+		box-sizing: border-box;
+		/*display: flex;
+		justify-content: space-between;
+		align-items: center;*/
+		;
+	}
+		
+		}
+	.encabezado nav ul{
+		list-style: none;
+		display: flex;
+		right: 10;
+			}
+	.encabezado nav ul li{
+		list-style: none;
+		display: inline-block;
+		text-decoration: none;
+		padding: 8px
+	}
+	.encabezado nav ul li a {
+		text-decoration: none;
+		color: black;
+		background-image: linear-gradient(currentColor, currentColor);
+   				background-position: 0% 100%;
+    			background-repeat: no-repeat;
+    			background-size: 0% 2px;
+    			transition: background-size .3s;
+	}
+	.encabezado nav ul li a:hover{
+		font-weight: 600;
+
+	}
+	.encabezado nav a {
+		text-decoration: none
+	}
+	.img-fluid{
+		width: 100%;
+	}
+	.encabezado_logo{
+		width: 100px
+	}
+.contenido{
+		padding: 40px 10px;
+		/*margin-bottom: 20px;*/
+		box-sizing: border-box;
+		border: none;
+		/*display: flex;
+		justify-content: space-between;*/
+		;}
+	.contenido a{
+		text-decoration: none;
+		font-size: 2rem;
+	}
+	.contenido a:hover{
+		font-weight: 600
+	}
+	.contenido-img{ width: 100% }
+	.contenido-box{
+		width: 95%;
+		border: none;
+		margin: auto;
+		padding: 10px 10px;
+		/*display: flex;
+		justify-content: space-between*/;
+		box-sizing: border-box;
+		text-align: center;
+		}
+
+.tiendaOnline{
+		width: 95%;
+		margin: 5px auto; 
+		border: solid 0.5px rgba(170,173,175,0.5);
+		background-color: rgba(170, 173,175, 0.25);
+		box-sizing: border-box;
+	/*	display: flex;
+		flex-direction: row;*/
+		padding: 10px
+	}
+	.tiendao{padding: 10px;
+		/*width: 50%*/}
+	.tienda-img{width: 100%}
+	.tiendaOnline a{
+		text-decoration: none;
+		font-size: 2rem
+	}
+	.tiendaOnline a:hover{
+		font-weight: 600;
+	}
+	.tiendaOnline input{ 
+	font-size: 1.8rem;
+	padding: 5px 10px }
+	.button{margin: 20px 10px;}
+
+.contacto{
+	width: 100%; 
+	padding: 0px 30px; 
+	box-sizing: border-box;
+	font-size: 1.8rem;
+	line-height: 2.5rem;
+	display: flex;
+	flex-direction: column;
+	}
+	.contacto input{
+	font-size: 1.8rem;
+	padding: 5px 10px;
+	}
+	.contacto form{
+		display: flex;
+		flex-direction: column;
+		border: 0;
+		margin: 5px 
+	}
+	.sino{display:flex;
+		align-items: center;
+		padding: 5px 5px }
+	.si{margin: 5px 5px}
+	.no{margin:5px 5px;}
+	.form{margin: 2px;
+		font-size: 2rem;}
+	.botones{margin:2px;
+		text-align: right}
+
+.ubicacion{ margin-bottom: 10px }
+.mapa{
+	overflow: hidden;
+	padding-bottom: 50%;
+	position: relative;
+	height: 0;
+	margin: 10px 30px;
+	margin-bottom: 20px
+
+}
+.mapa iframe{
+	left:0;
+	top:0;
+	height: 100%;
+	width: 100%;
+	position: absolute
+}
+
+.nosotros-info{
+	width: 95%;
+	margin: auto;
+	border: none;
+	
+}
+	.nosotros-info img{
+		width: 100%
+	}
+	.box{
+		padding: 20px 20px;
+		border: none;
+		}
+	.box div{padding: 0px 20px}
+
+/*.vector{
+	width: 10%;
+	border-radius: 50%
+}*/
+/*.pasos{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px ;
+	margin: 20px;
+	background-color: rgba(255,255,255,0.5); ;
+	line-height: 2rem   }*/
+.pasos_titulo{ font-size: 2rem;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: 200}
+	.pasos-box{padding-bottom: 15px;
+	}		
+
+
+	.img-proyectos{
+		width: 100%;
+	}
+	.img-proyectos:hover{opacity: 0.35}
+	.proy{width: 100%;}
+	.proyectos {position: relative; border: none;}
+	.proy-nom{position: absolute;
+		bottom:0; left:0;
+		background-color: grey;
+		color: white;
+		width: 100%;
+		box-sizing: border-box;
+		text-align: center;
+		margin: auto;
+		padding: 15px;
+		z-index: 1}
+	.proy-nom:hover{opacity: 1.0}
+
+.serv{display: flex;
+	align-items: flex-start;
+	margin: auto}
+.mas{background: none;
+text-align: center;
+padding: 10px 10px}
+
+
+.pie{
+	background-color: rgba(170, 173, 175, 0.75);
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;}
+	.pie_redes{margin-right: 20px;} 
+
+	.pie_icon{
+		width: 30px; padding: 0px 5px
+	}
+	.pie a{
+		text-decoration: none
+	}
+	.pie_titulo{
+		font-size: 2rem
+	}
+	
+
+
+.encabezado{ grid-area: header }
+.portada{grid-area: img}
+.contenido{grid-area: cont}
+.tiendaOnline{grid-area: tienda}
+.contacto{grid-area: contacto}
+.ubicacion{grid-area: ubicacion}
+.pie{grid-area: pie}
+.nosotros-info{grid-area: nos}
+.pasos{grid-area: pasos}
+.proy{grid-area: proy}
+
+
+/* media queries*/
+
+@media (min-width: 768px){
+	.contenedor{ display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: repeat(7; auto);
+	grid-template-areas: 
+	"header"
+	"img"
+	"cont"
+	"tienda"
+	"contacto"
+	"ubicacion"
+	"pie";}
+	.contenido{display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;}
+
+	.tiendaOnline{display: flex;
+		flex-direction: column}
+	.encabezado nav{display:flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;}
+
+	.contenedor-nos{display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: repeat(4; auto);
+	grid-template-areas: 
+	"header"
+	"img"
+	"nos"
+	"pie"}
+	.box{display: flex;
+		flex-direction: column;
+		justify-content: space-around;}
+	.box img{width: 100%}
+}
+	.contenedor-procesos{display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: repeat(4; auto);
+		grid-template-areas: 
+		"header"
+		"img"
+		"pasos"
+		"pie"}
+	.pasos-box{display: flex;
+			flex-direction: column;
+			width: 95%;
+			/*align-items: center*/;
+			justify-content: space-around;
+			margin: 15px;
+			background-color: rgba(255,255,255, 0.5)
+			}
+	.pasos-enca{text-align: center;
+				width: 100%;
+				padding-left: 20px}
+	.pasos_cont{padding: 10px 40px;
+				text-align: left}
+	.contenedor-proy{display: grid;
+			grid-column: 100%;
+			grid-template-rows: repeat(4, auto);
+				grid-template-areas: 
+				"header"
+				"img"
+				"proy"
+				"pie"}
+	.proy{display: flex;
+		flex-direction: column}
+	.proyectos{width: 90%;
+		margin: auto;}
+	.pasos-box-serv{display: flex;
+			flex-direction: column;
+			width: 95%;
+			/*align-items: center*/;
+			justify-content: space-around;
+			margin: 15px;
+			background-color: rgba(255,255,255, 0.5)
+			}
+	.pasos-box-serv{display: flex;
+		flex-direction: column;
+		width: 90%;
+		margin: 20px 0px;
+		background-color: rgba(255,255,255, 0.5);
+		align-items: center;
+		padding-top: 10px }
+			.serv{width: 90%;
+	}
+	.servicio{display: flex;
+		flex-direction: column;
+		margin: auto;
+		 }
+@media (min-width: 1024px){
+.contenedor{display: grid;
+grid-template-columns: 50% 50%;
+grid-template-rows: auto auto auto auto auto auto;
+grid-template-areas: 
+"header header" 
+"img img" 
+"cont cont" 
+"tienda tienda" 
+"contacto ubicacion"
+"pie pie" }
+.contenido{display:flex;
+	flex-direction: row;
+	padding: 10px 10px;
+	margin: 20px 0px
+	}
+.tiendaOnline{display:flex;
+	flex-direction: row;}
+.tiendao{width: 100%}
+.encabezado nav{ display: flex;
+	flex-direction: row;
+		justify-content: space-between;
+		align-items: center; }
+.contenedor-nos{display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: repeat(4; auto);
+	grid-template-areas: 
+	"header"
+	"img"
+	"nos"
+	"pie"}
+	.box{display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		border: none}
+	.box img{width: 50%;}
+	.equipo{flex-direction: row-reverse;}
+.pasos-box{display: flex;
+		flex-direction: row;
+		width: 90%;
+		margin: 20px 0px;
+		background-color: rgba(255,255,255, 0.5);
+		align-items: center}
+	.pasos_enca{width: 30%;
+				text-align: center;}
+	.pasos_cont{width: 70%;
+			padding: 0px:}
+	.proyectos{width: 30%;
+		margin: auto;}
+		.proy{display: flex;
+			flex-direction: row}
+	.pasos-box-serv{display: flex;
+		flex-direction: column;
+		width: 90%;
+		margin: 20px 0px;
+		background-color: rgba(255,255,255, 0.5);
+		align-items: center;
+		padding-top: 10px }
+	.serv{width: 30%;
+		flex-basis: 30%
+	}
+	.servicio{display: flex;
+		flex-flow: row wrap;
+		margin: auto;
+		padding: auto;
+		border:none;
+
+		 }

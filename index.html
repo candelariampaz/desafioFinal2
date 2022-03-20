@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CG Design - Estudio de diseno</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</head>
+<body>
+<div class="contenedor">
+	<header class="encabezado">
+		<!-- INICIA NAV -->
+		<nav>
+			<a href="index.html"> 
+				<img src="img/logomin.png" alt="Estudio de diseno CG Design" class="encabezado_logo">
+			</a>
+
+			<ul> 
+				<li><a href="nosotros.html">Nosotros</a></li>
+				<li><a href="servicios.html">Servicios</a></li>
+				<li><a href="proyectos.html">Proyectos</a></li>
+				<li><a href="procesos.html">Procesos</a></li>
+				<li><a href="https://www.cucugollandeco.com/" target="blank">Tienda</a>	</li>
+				<li><a href="#contacto">Contacto</a></li>
+			</ul>
+
+
+		</nav>
+		<!-- ENDS NAV -->
+
+		
+	</header>
+	<div class="portada">
+		<img src="img/header.jpg" alt="decoracion de interiores" class="img-fluid">
+		<h1>CG Design Estudio </h1>
+	</div>
+	<!-- INICIA CONTENIDO PRINCIPAL -->
+	<div class="contenido wow fadeInRight" data-wow-duration="3s">	
+				<figure class="contenido-box">
+				<a href="nosotros.html" class="nosotros"> 
+				<img src="img/nosotros.jpg" alt="nuestro estudio" class="contenido-img"> 
+				Nosotros </a> 
+				</figure>
+				<figure class="contenido-box">
+				<a href="servicios.html" class="servicios"> 
+				<img src="img/servicios.jpg" alt="servicios que ofrecemos" class="contenido-img">
+				Servicios </a> 
+				</figure>
+				<figure class="contenido-box">
+				<a href="proyectos.html" 	class="proyectos"> 
+				<img src="img/proyectos.jpg" alt="nuestros proyectos" class="contenido-img">
+				Proyectos </a>
+				</figure>
+
+	</div>
+	<div class="tiendaOnline wow fadeIn">
+				<div class="tiendao">
+					<a href="https://www.cucugollandeco.com/" target="blank" >
+					<img src="img/tienda.jpg" alt="nuestra tienda online" class="tienda-img"></a>
+				</div>	
+				<div ><h2>Nuestra tienda online</h2>
+					<p>	Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus deserunt quae quis repellendus corporis quam molestiae eligendi animi maiores! Est minima delectus dolore nihil, doloremque asperiores maxime eaque, quae.	</p>
+					<input type="button" value="Ir a la tienda" class="button">
+				</div>
+	</div>
+	<div class="contacto"> 
+				<h2>Contacto</h2>
+				<form action="envio.php" method="post">	
+					<label class="form" for="nombre"></label>
+					<input class="form" type="text" placeholder="Tu nombre" name="nombre" id="nombre" 	> 
+					<label class="form" for="email"></label>
+					<input class="form" type="email" placeholder="Tu mail" name="email" id="email"> 
+					<label class="form"> Ubicación </label>
+					<select class="form" name="localidad" id="localidad">
+							<option value="tucuman">Tucuman</option>
+							<option value="noa">NOA</option>
+							<option value="pais"> Resto del pais</option>
+							<option value="exterior"> Fuera de Argentina</option>
+					</select>
+					<label class="form"> Queres recibir nuestro newsletter?</label>
+					<div class="sino">
+						<div class="si">
+							<label  for="newsletter">SI</label>
+							<input type="radio" id="neswletter" value="newsletter" name="envio"></div>	
+						<div class="no">
+							<label class="no" for="nonewsletter">NO</label>
+							<input type="radio" id="nonewsletter" value="nonewsletter" name="envio"></div>
+					</div>	
+					<label class="form" for="mensaje"> </label>
+					<textarea class="form" name="comentario" id="comentario" cols="30" rows="7" placeholder="Deja tu mensaje" ></textarea> 
+					<div class="botones">
+					<input type="submit" value="Enviar">
+					<input type="reset" value="Cancelar">
+					</div>
+
+				</form> 
+	</div>
+			<!-- ends form -->
+
+	<div class="ubicacion">
+				<h2>Donde encontrarnos</h2>
+				<div class="mapa">
+				<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.377011327078!2d-65.29775771095927!3d-26.80947423893106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942243863fd07985%3A0x87533032b2e4bfa8!2sCucu%20Gollan%20Decoraciones!5e0!3m2!1ses!2sar!4v1644770232711!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+	</div>
+			<!-- ends map -->
+	<!-- Cierra main -->
+
+	<footer class="pie">
+		<h3 class="pie_titulo"> Seguinos en nuestras redes</h3>
+		<div class="pie_redes">
+			<a href="https://www.instagram.com/cucugollanestudio/?hl=es" target="blank">
+			<img src="img/instagram.png" alt="seguinos en instagram" class="pie_icon">
+			</a>
+			<a href="https://www.facebook.com/cucugollanestudio/" target="blank">
+			<img src="img/facebook.png" alt="seguinos en facebook" class="pie_icon">
+			</a>
+		</div>
+	</footer>
+</div>
+</body>
+</html>
